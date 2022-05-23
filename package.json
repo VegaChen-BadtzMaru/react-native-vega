@@ -1,6 +1,6 @@
 {
 	"name": "react-native-vega",
-	"version": "1.0.1",
+	"version": "1.0.4",
 	"description": "React Native Vega Library",
 	"main": "./dist/index.js",
 	"scripts": {
@@ -20,6 +20,7 @@
 	"homepage": "https://github.com/VegaChen-BadtzMaru/react-native-vega#readme",
 	"devDependencies": {
 		"@types/jest": "^27.5.1",
+		"@types/react-native": "^0.67.7",
 		"@typescript-eslint/eslint-plugin": "^5.25.0",
 		"@typescript-eslint/parser": "^5.25.0",
 		"eslint": "^8.15.0",
@@ -27,7 +28,12 @@
 		"eslint-plugin-node": "^11.1.0",
 		"jest": "^28.1.0",
 		"prettier": "^2.6.2",
+		"react-native": "^0.68.2",
 		"ts-jest": "^28.0.2",
 		"typescript": "^4.6.4"
+	},
+	"peerDependencies": {
+		"react": "*",
+		"react-native": "*"
 	}
 }
