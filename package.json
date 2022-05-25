@@ -6,7 +6,8 @@
 	"scripts": {
 		"build": "rm -rf ./dist/ && tsc",
 		"lint": "eslint . --ext .ts",
-		"test": "jest"
+		"test": "jest",
+		"pub": "yarn run build && yarn publish"
 	},
 	"repository": {
 		"type": "git",

@@ -1,10 +1,10 @@
 import { NativeModules } from "react-native";
 
-type RNVegaI = {
+type RNVegaT = {
 	sayHello: () => void;
 };
 
-const RNVega: RNVegaI = NativeModules.RNVega;
+const RNVega: RNVegaT = NativeModules.RNVega;
 
 function add(a: number, b: number): number {
 	return a + b;
