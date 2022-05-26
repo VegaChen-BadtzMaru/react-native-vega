@@ -9,3 +9,4 @@ jest.config.js
 tsconfig.json
 android/.gradle/
 android/.idea/
+.vscode

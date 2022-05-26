@@ -10,7 +10,7 @@
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(sayHello) {
-    RCTLogInfo(@"hello world!");
+    RCTLogInfo(@"hello!");
 }
 
 @end

@@ -9,3 +9,6 @@ dist/
 ### Android ###
 .gradle
 .idea
+
+### VSCode ###
+.vscode

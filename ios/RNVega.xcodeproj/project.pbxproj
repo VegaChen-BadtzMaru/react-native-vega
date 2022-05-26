@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5FA84A24283B5CA2007C14EC /* RNVega.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA84A23283B5CA2007C14EC /* RNVega.m */; };
 		5FA84A25283B5CA2007C14EC /* RNVega.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FA84A22283B5CA2007C14EC /* RNVega.h */; };
+		5FA84A34283DDA79007C14EC /* RNTMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA84A33283DDA79007C14EC /* RNTMapManager.m */; };
+		5FA84A38283E0AA6007C14EC /* RNTMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA84A37283E0AA6007C14EC /* RNTMapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		5FA84A1F283B5CA2007C14EC /* libRNVega.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNVega.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA84A22283B5CA2007C14EC /* RNVega.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNVega.h; sourceTree = "<group>"; };
 		5FA84A23283B5CA2007C14EC /* RNVega.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNVega.m; sourceTree = "<group>"; };
+		5FA84A33283DDA79007C14EC /* RNTMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTMapManager.m; sourceTree = "<group>"; };
+		5FA84A35283E07D6007C14EC /* RCTConvert+Mapkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+Mapkit.h"; sourceTree = "<group>"; };
+		5FA84A36283E0A81007C14EC /* RNTMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTMapView.h; sourceTree = "<group>"; };
+		5FA84A37283E0AA6007C14EC /* RNTMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTMapView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,22 @@
 		5FA84A21283B5CA2007C14EC /* RNVega */ = {
 			isa = PBXGroup;
 			children = (
+				5FA84A32283DDA41007C14EC /* NativeViews */,
 				5FA84A22283B5CA2007C14EC /* RNVega.h */,
 				5FA84A23283B5CA2007C14EC /* RNVega.m */,
 			);
 			path = RNVega;
+			sourceTree = "<group>";
+		};
+		5FA84A32283DDA41007C14EC /* NativeViews */ = {
+			isa = PBXGroup;
+			children = (
+				5FA84A33283DDA79007C14EC /* RNTMapManager.m */,
+				5FA84A35283E07D6007C14EC /* RCTConvert+Mapkit.h */,
+				5FA84A36283E0A81007C14EC /* RNTMapView.h */,
+				5FA84A37283E0AA6007C14EC /* RNTMapView.m */,
+			);
+			path = NativeViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FA84A24283B5CA2007C14EC /* RNVega.m in Sources */,
+				5FA84A34283DDA79007C14EC /* RNTMapManager.m in Sources */,
+				5FA84A38283E0AA6007C14EC /* RNTMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
