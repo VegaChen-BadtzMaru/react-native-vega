@@ -9,6 +9,7 @@ dist/
 ### Android ###
 .gradle
 .idea
+local.properties
 
 ### VSCode ###
 .vscode
