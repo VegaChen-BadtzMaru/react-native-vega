@@ -1,6 +1,7 @@
 import RNVega from "./nativeModules/RNVega";
-import IosMapView from "./nativeViews/IosMapView";
+import IosMapView from "./iosNativeViews/IosMapView";
+import AnButton from "./androidNativeViews/AnButton";
 
-const vega = { RNVega, IosMapView };
+const vega = { RNVega, IosMapView, AnButton };
 
 export default vega;
