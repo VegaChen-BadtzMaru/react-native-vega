@@ -10,12 +10,14 @@ import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
 
 import com.rnvega.RNTView.RNTButtonManager;
+import com.rnvega.RCTModule.NotificationModule;
 
 public class RNVegaPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new RNVegaModule(reactContext));
+        modules.add(new NotificationModule(reactContext));
         return modules;
     }
 
